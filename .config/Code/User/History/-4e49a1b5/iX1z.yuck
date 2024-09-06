@@ -1,0 +1,64 @@
+(defwidget bar []
+  (box :orientation "h"
+    (sidestuff)))
+
+(defwidget sidestuff []
+  (box :class "sidestuff" :orientation "h" :space-evenly false :halign "end"
+    (metric :label "🔊"
+      :value volume
+    :onchange "amixer -D pulse sset Master {}%")
+    (ramusage)
+    (metric :label "💾"
+      :value {round((1 - (EWW_DISK["/"].free / EWW_DISK["/"].total)) * 100, 0)}
+    :onchange "")
+  time))
+
+(defwidget ramusage []
+  (let [usage (ram_usage)] 
+    (box :class "ram-usage"
+      (box 
+        (str "Usage: " (if usage usage "No Data")))))) 
+
+
+(defpoll ram_usage :interval "1s"
+"scripts/ram.sh")
+
+;;(defwidget music []
+  ;;  (box :class "music"
+    ;;    :orientation "h"
+    ;;    :space-evenly false
+    ;;    :halign "center"
+  ;;  {music != "" ? "🎵${music}" : ""}))
+
+
+(defwidget metric [label value onchange]
+  (box :orientation "h"
+    :class "metric"
+    :space-evenly false
+    (box :class "label" label)
+    (scale :min 0
+      :max 101
+      :active {onchange != ""}
+      :value value
+    :onchange onchange)))
+
+
+
+(defpoll volume :interval "1s"
+"scripts/getvol")
+
+(defpoll time :interval "10s"
+"date '+%H:%M %b %d, %Y'")
+
+(defwindow bar
+  :monitor 2
+  :stacking "fg"
+  :exclusive "true"
+  :focusable "false"
+  :geometry (geometry :x "0%"
+    :y "0%"
+    :width "90%"
+    :height "3%"
+  :anchor "top center")
+  :reserve (struts :side "top" :distance "2%")
+  (bar))

@@ -1,0 +1,2 @@
+2024-09-06 23:51:40.966 [info] Started local extension host with pid 33105.
+2024-09-06 23:51:41.503 [error] [xabikos.JavaScriptSnippets]: Unknown language in `contributes.JavaScriptSnippets.language`. Provided value: vue

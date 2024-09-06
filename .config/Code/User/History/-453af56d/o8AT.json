@@ -1,0 +1,9 @@
+{
+    "workbench.tree.expandMode": "doubleClick",
+    "workbench.iconTheme": "eq-material-theme-icons-darker",
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "catppuccin.colorOverrides": {
+        
+    }
+}

@@ -1,0 +1,4 @@
+
+function power_off() {
+
+}

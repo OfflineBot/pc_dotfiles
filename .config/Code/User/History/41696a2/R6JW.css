@@ -1,0 +1,15 @@
+.app-window {
+    /*background-color: #0f0f17;*/
+    border-radius: 14px;
+    border: 1px solid @border-color;
+    background-color: @mainbg;
+}
+
+.app-box {
+    border-radius: 20px;
+}
+
+.app-container {
+    border-radius: 20px;
+}
+

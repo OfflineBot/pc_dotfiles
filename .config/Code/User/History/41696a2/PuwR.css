@@ -1,0 +1,23 @@
+@import url("./colors.css");
+
+.app-window {
+    /*background-color: #0f0f17;*/
+    border-radius: 12px;
+    border: 1px solid @border-color;
+    background-color: @bg1;
+}
+
+.app-box {
+    border-radius: 12px;
+}
+
+.app-container {
+    border-radius: 12px;
+}
+
+.app-item {
+    background-color: @bg2;
+    border-radius: 12px;
+    padding: 0px 10px;
+}
+
