@@ -1,0 +1,5 @@
+2024-09-07 08:18:55.153 [info] Started local extension host with pid 13273.
+2024-09-07 08:18:55.713 [error] [xabikos.JavaScriptSnippets]: Unknown language in `contributes.JavaScriptSnippets.language`. Provided value: vue
+2024-09-07 08:18:57.838 [info] [perf] Render performance baseline is 21ms
+2024-09-07 08:23:40.208 [error] [text file model] handleSaveError(21) - exit - resulted in a save error: Error: Unable to write file '/home/offlinebot/Coding/py/program.py' (Error: File Modified Since) file:///home/offlinebot/Coding/py/program.py
+2024-09-07 08:23:42.629 [error] [text file model] handleSaveError(21) - exit - resulted in a save error: Error: Unable to write file '/home/offlinebot/Coding/py/program.py' (Error: File Modified Since) file:///home/offlinebot/Coding/py/program.py

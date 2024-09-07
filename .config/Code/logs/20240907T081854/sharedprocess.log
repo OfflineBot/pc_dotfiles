@@ -1,0 +1,39 @@
+2024-09-07 08:19:05.536 [info] Getting Manifest... ms-python.python
+2024-09-07 08:19:05.544 [info] Installing extension: ms-python.python {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/offlinebot/.vscode/extensions/extensions.json","path":"/home/offlinebot/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.93.0","date":"2024-09-04T13:02:38.431Z"}}
+2024-09-07 08:19:06.152 [info] Getting Manifest... ms-python.vscode-pylance
+2024-09-07 08:19:06.176 [info] Getting Manifest... ms-python.debugpy
+2024-09-07 08:19:06.213 [info] Installing extension: ms-python.vscode-pylance {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/offlinebot/.vscode/extensions/extensions.json","path":"/home/offlinebot/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.93.0","date":"2024-09-04T13:02:38.431Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2024-09-07 08:19:06.213 [info] Installing extension: ms-python.debugpy {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/offlinebot/.vscode/extensions/extensions.json","path":"/home/offlinebot/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.93.0","date":"2024-09-04T13:02:38.431Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2024-09-07 08:19:10.795 [info] Extension signature verification result for ms-python.debugpy: UnknownError. Executed: true. Duration: 31ms.
+2024-09-07 08:19:11.050 [info] Extracted extension to file:///home/offlinebot/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64: ms-python.debugpy
+2024-09-07 08:19:11.055 [info] Renamed to /home/offlinebot/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64
+2024-09-07 08:19:11.137 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/offlinebot/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/offlinebot/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19406)
+    at u (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19517)
+    at $.hb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36674)
+    at $.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29001)
+    at async c.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14931)
+    at async W.ub (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120356)
+2024-09-07 08:19:12.830 [info] Extension signature verification result for ms-python.python: UnknownError. Executed: true. Duration: 5ms.
+2024-09-07 08:19:13.440 [info] Extension signature verification result for ms-python.vscode-pylance: UnknownError. Executed: true. Duration: 7ms.
+2024-09-07 08:19:13.864 [info] Extracted extension to file:///home/offlinebot/.vscode/extensions/ms-python.python-2024.14.0-linux-x64: ms-python.python
+2024-09-07 08:19:13.903 [info] Renamed to /home/offlinebot/.vscode/extensions/ms-python.python-2024.14.0-linux-x64
+2024-09-07 08:19:13.984 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/offlinebot/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/offlinebot/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19406)
+    at u (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19517)
+    at $.hb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36674)
+    at $.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29001)
+    at async c.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14931)
+    at async W.ub (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120356)
+2024-09-07 08:19:16.511 [info] Extracted extension to file:///home/offlinebot/.vscode/extensions/ms-python.vscode-pylance-2024.8.2: ms-python.vscode-pylance
+2024-09-07 08:19:16.550 [info] Renamed to /home/offlinebot/.vscode/extensions/ms-python.vscode-pylance-2024.8.2
+2024-09-07 08:19:16.575 [info] Extension installed successfully: ms-python.debugpy vscode-userdata:/home/offlinebot/.vscode/extensions/extensions.json
+2024-09-07 08:19:16.576 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/offlinebot/.vscode/extensions/extensions.json
+2024-09-07 08:19:16.576 [info] Extension installed successfully: ms-python.vscode-pylance vscode-userdata:/home/offlinebot/.vscode/extensions/extensions.json
+2024-09-07 08:19:16.632 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/offlinebot/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/offlinebot/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19406)
+    at u (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19517)
+    at $.hb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36674)
+    at $.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29001)
+    at async c.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14931)
+    at async W.ub (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120356)

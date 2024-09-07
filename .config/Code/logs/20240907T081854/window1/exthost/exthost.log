@@ -1,0 +1,34 @@
+2024-09-07 08:18:55.448 [info] Extension host with pid 13273 started
+2024-09-07 08:18:55.448 [info] Skipping acquiring lock for /home/offlinebot/.config/Code/User/workspaceStorage/c938c857296eb13b92bf2bf28245d95f.
+2024-09-07 08:18:55.539 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-09-07 08:18:55.565 [info] ExtensionService#_doActivateExtension standard.vscode-standard, startup: true, activationEvent: '*'
+2024-09-07 08:18:55.672 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-09-07 08:18:55.700 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-07 08:18:55.747 [info] Eager extensions activated
+2024-09-07 08:18:55.824 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-07 08:18:55.825 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-07 08:18:55.831 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2024-09-07 08:18:55.833 [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-09-07 08:18:55.867 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-09-07 08:18:55.873 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2024-09-07 08:18:55.875 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-09-07 08:18:56.604 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-09-07 08:19:16.762 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2024-09-07 08:19:17.177 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-09-07 08:19:17.219 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-09-07 08:46:30.460 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-09-07 08:58:17.756 [info] Extension host terminating: renderer closed the MessagePort
+2024-09-07 08:58:17.777 [error] TypeError: r.some is not a function
+	at d.saveToDisk (/home/offlinebot/.vscode/extensions/vscodevim.vim-1.28.0/out/extension.js:2:646003)
+	at t.deactivate (/home/offlinebot/.vscode/extensions/vscodevim.vim-1.28.0/out/extension.js:2:176792)
+	at m.eb (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:167:10082)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:167:8153
+	at Array.map (<anonymous>)
+	at m.$ (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:167:8140)
+	at m.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:167:8413)
+	at $.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:1513)
+	at n (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:184:10613)
+	at MessagePortMain.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:184:6805)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619)
+2024-09-07 08:58:17.778 [info] Extension host with pid 13273 exiting with code 0

@@ -6,9 +6,12 @@
             "file:///home/offlinebot/.config/ags/windows": "__default__profile__",
             "file:///home/offlinebot/.config/ags": "__default__profile__",
             "file:///home/offlinebot/dotfiles/.config/hypr": "__default__profile__",
-            "file:///home/offlinebot": "__default__profile__"
+            "file:///home/offlinebot": "__default__profile__",
+            "file:///home/offlinebot/Coding/py": "__default__profile__"
         },
-        "emptyWindows": {}
+        "emptyWindows": {
+            "1725691647841": "__default__profile__"
+        }
     },
     "profileAssociationsMigration": true,
     "telemetry.sqmId": "",
@@ -18,10 +21,14 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/offlinebot"
+                "folderUri": "file:///home/offlinebot/Coding/py"
             }
         ],
-        "emptyWindows": []
+        "emptyWindows": [
+            {
+                "backupFolder": "1725691647841"
+            }
+        ]
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -73,11 +80,21 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/offlinebot/Coding/py",
+                                        "path": "/home/offlinebot/Coding/py",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Coding/py"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -493,7 +510,8 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel"
+                                    "label": "&&Panel",
+                                    "checked": true
                                 },
                                 {
                                     "id": "toggle.toggleCustomTitleBar",
@@ -694,6 +712,13 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "Split in &&Group"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.moveEditorToNewWindow",
                                     "label": "&&Move Editor into New Window"
                                 },
@@ -770,6 +795,10 @@
                         "label": "E&&xtensions"
                     },
                     {
+                        "id": "workbench.view.extension.test",
+                        "label": "T&&esting"
+                    },
+                    {
                         "id": "vscode.menubar.separator"
                     },
                     {
@@ -793,8 +822,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     }
                 ]
             },
@@ -802,8 +830,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -812,8 +839,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1133,8 +1159,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1697,14 +1722,14 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/offlinebot",
-            "backupPath": "/home/offlinebot/.config/Code/Backups/a8306ed5294a59bfa16028df41755269",
+            "folder": "file:///home/offlinebot/Coding/py",
+            "backupPath": "/home/offlinebot/.config/Code/Backups/e3e80a6b6ccff7aecdf9c0f8540d54da",
             "uiState": {
                 "mode": 1,
                 "x": 3212,
-                "y": 12,
-                "width": 941,
-                "height": 1056
+                "y": 57,
+                "width": 1896,
+                "height": 1011
             }
         },
         "openedWindows": []

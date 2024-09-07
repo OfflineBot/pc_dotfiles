@@ -1,3 +1,0 @@
-2024-09-06 23:07:10.037 [info] Started local extension host with pid 54603.
-2024-09-06 23:07:10.600 [error] [xabikos.JavaScriptSnippets]: Unknown language in `contributes.JavaScriptSnippets.language`. Provided value: vue
-2024-09-06 23:07:12.690 [info] [perf] Render performance baseline is 19ms
